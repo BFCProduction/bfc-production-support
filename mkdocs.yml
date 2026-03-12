@@ -1,3 +1,4 @@
+cat > ~/bfc-production-support/mkdocs.yml << 'EOF'
 site_name: BFC Production Support
 site_url: https://bfcproduction.github.io/bfc-production-support
 theme:
@@ -14,17 +15,6 @@ theme:
 plugins:
   - search
   - glightbox
-nav:
-  - Home: index.md
-  - Audio: audio/index.md
-  - Video: video/index.md
-  - Lighting:
-    - Overview: lighting/index.md
-    - Connecting MA3 to Arena: lighting/connecting-ma3-to-arena.md
-  - Network: network/index.md
-  - Workflows:
-    - Overview: workflows/index.md
-    - BFC Kiosk - Using Info Beamer: workflows/tv-kiosks-bfc-hd-info-beamer.md
-    - Creating a New Support Page: workflows/creating-a-new-support-page.md
 repo_url: https://github.com/BFCProduction/bfc-production-support
 repo_name: BFCProduction/bfc-production-support
+EOF

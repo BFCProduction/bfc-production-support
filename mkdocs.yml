@@ -2,8 +2,8 @@ site_name: BFC Production Support
 site_url: https://bfcproduction.github.io/bfc-production-support
 theme:
   name: material
-  logo: assets/logo.png
-  favicon: assets/logo.png
+  logo: assets/bfc-logo.png
+  favicon: assets/bfc-logo.png
   palette:
     scheme: slate
     primary: black
@@ -13,6 +13,9 @@ theme:
     - navigation.top
     - search.suggest
     - search.highlight
+  custom_dir: docs/assets
+     extra_css:
+       - assets/custom.css
 plugins:
   - search
   - glightbox

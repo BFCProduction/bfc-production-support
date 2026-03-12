@@ -13,4 +13,10 @@ This section covers Dante network audio, mixing console setup, signal flow, and 
 
 ---
 
+## Manufacturer Documentation
+
+- [Dante Controller User Guide](https://dev.audinate.com/GA/dante-controller/userguide/webhelp/content/front_page.htm) — Official Audinate reference for Dante Controller
+
+---
+
 Pages are being added as procedures are documented. If you've solved a problem or established a repeatable process, add it here — see [Creating a New Support Page](../workflows/creating-a-new-support-page.md).

@@ -13,6 +13,10 @@ theme:
     - search.suggest
     - search.highlight
 
+plugins:
+  - search
+  - glightbox
+
 nnav:
   - Home: index.md
   - Audio: audio/index.md

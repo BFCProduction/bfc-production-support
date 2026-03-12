@@ -26,6 +26,7 @@ nnav:
     - Connecting MA3 to Arena: lighting/connecting-ma3-to-arena.md
   - Network: network/index.md
   - Workflows: workflows/index.md
-
+    - BFC Kiosk - Using info beamer: workflow/tv-kiosks-bfc-hd-info-beamer.md
+    - Creating a new support page: workflow/creating-a-new-support-page.md
 repo_url: https://github.com/BFCProduction/bfc-production-support
 repo_name: BFCProduction/bfc-production-support

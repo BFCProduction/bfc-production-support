@@ -13,9 +13,8 @@ theme:
     - navigation.top
     - search.suggest
     - search.highlight
-  custom_dir: docs/assets
-     extra_css:
-       - assets/custom.css
+extra_css:
+  - assets/custom.css
 plugins:
   - search
   - glightbox

@@ -4,52 +4,25 @@
   width: auto;
 }
 
-/* Hide redundant site title in header */
+/* Hide redundant site title */
 .md-header__title {
   display: none;
 }
 
-/* Near black header */
+/* Black header */
 .md-header {
-  background-color: #202020;
+  background-color: #202020 !important;
 }
 
-/* Mid grey main background */
-.md-main {
-  background-color: #565656;
+/* Main background */
+[data-md-color-scheme="slate"] {
+  --md-default-bg-color: #565656;
+  --md-default-fg-color: #f9f8f6;
+  --md-typeset-color: #f9f8f6;
+  --md-sidebar-bg-color: #404040;
+  --md-nav-fg-color: #e7e0d9;
 }
 
-.md-content {
-  background-color: #565656;
-}
-
-/* Darker sidebar for contrast */
 .md-sidebar {
-  background-color: #404040;
-}
-
-/* Warm white body text for readability */
-.md-content p, .md-content li, .md-content h1,
-.md-content h2, .md-content h3 {
-  color: #f9f8f6;
-}
-
-/* Nav links */
-.md-nav__link {
-  color: #afaead;
-}
-
-.md-nav__link:hover {
-  color: #f9f8f6;
-}
-
-/* Nav section headers */
-.md-nav__title {
-  color: #e7e0d9;
-}
-
-/* Search bar */
-.md-search__input {
-  background-color: #404040;
-  color: #f9f8f6;
+  background-color: #404040 !important;
 }

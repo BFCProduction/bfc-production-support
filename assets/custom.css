@@ -1,0 +1,51 @@
+/* Logo size */
+.md-header__button.md-logo img {
+  height: 60px;
+  width: auto;
+}
+
+/* Hide redundant site title */
+.md-header__title {
+  display: none;
+}
+
+/* Black header */
+.md-header {
+  background-color: #202020 !important;
+}
+
+/* Main background and text */
+[data-md-color-scheme="slate"] {
+  --md-default-bg-color: #565656;
+  --md-default-fg-color: #f9f8f6;
+  --md-typeset-color: #f9f8f6;
+
+  /* Fix blue links to use palette */
+  --md-typeset-a-color: #e7e0d9;
+  --md-accent-fg-color: #e7e0d9;
+
+  /* Nav section headers */
+  --md-nav-fg-color: #f9f8f6;
+}
+
+/* Sidebar */
+.md-sidebar {
+  background-color: #404040 !important;
+}
+
+/* Nav section group headers (Audio, Lighting etc.) */
+.md-nav__title, 
+.md-nav__item--section > .md-nav__link {
+  color: #f9f8f6 !important;
+  font-weight: 600;
+}
+
+/* Nav page links */
+.md-nav__link {
+  color: #e7e0d9 !important;
+}
+
+.md-nav__link:hover,
+.md-nav__link--active {
+  color: #f9f8f6 !important;
+}

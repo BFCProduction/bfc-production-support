@@ -14,41 +14,42 @@
   background-color: #202020;
 }
 
-/* Warm white content background */
+/* Mid grey main background */
 .md-main {
-  background-color: #f9f8f6;
-}
-
-.md-content {
-  background-color: #f9f8f6;
-}
-
-/* Light warm grey sidebar */
-.md-sidebar {
-  background-color: #e7e0d9;
-}
-
-/* Sidebar text */
-.md-nav__item {
-  color: #202020;
-}
-
-/* Mid grey footer/tabs */
-.md-tabs {
   background-color: #565656;
 }
 
-/* Body text color */
-.md-content p, .md-content li, .md-content h1, 
+.md-content {
+  background-color: #565656;
+}
+
+/* Darker sidebar for contrast */
+.md-sidebar {
+  background-color: #404040;
+}
+
+/* Warm white body text for readability */
+.md-content p, .md-content li, .md-content h1,
 .md-content h2, .md-content h3 {
-  color: #202020;
+  color: #f9f8f6;
 }
 
 /* Nav links */
 .md-nav__link {
-  color: #565656;
+  color: #afaead;
 }
 
 .md-nav__link:hover {
-  color: #202020;
+  color: #f9f8f6;
+}
+
+/* Nav section headers */
+.md-nav__title {
+  color: #e7e0d9;
+}
+
+/* Search bar */
+.md-search__input {
+  background-color: #404040;
+  color: #f9f8f6;
 }

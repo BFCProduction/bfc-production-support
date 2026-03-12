@@ -13,7 +13,7 @@ Prior to connecting the MA3 to Arena:
 
 navigate to Settings>Network Protocols > Art Net
 
-![[Screenshot 2026-03-09 at 3.23.51 PM.png]]
+![MA3 ArtNet Settings](MA3_ArtNet_Settings.jpg)
 
 #### MA3 settings
 

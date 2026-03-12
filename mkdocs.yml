@@ -13,11 +13,13 @@ theme:
     - search.suggest
     - search.highlight
 
-nav:
+nnav:
   - Home: index.md
   - Audio: audio/index.md
   - Video: video/index.md
-  - Lighting: lighting/index.md
+  - Lighting:
+    - Overview: lighting/index.md
+    - Connecting MA3 to Arena: lighting/connecting-ma3-to-arena.md
   - Network: network/index.md
   - Workflows: workflows/index.md
 

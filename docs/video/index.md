@@ -16,6 +16,9 @@ This section covers Resolume Arena workflows, codec and file format guidelines, 
 ## Pages
 
 - [Arena Service Bumper — Auto-Start ProPresenter Timer](arena-service-bumper-timer.md) — How Companion automatically starts a ProPresenter countdown timer when the service bumper plays in Arena, and how to set the timer duration before going live.
+- [ATEM Output Configuration](atem-output-configuration.md) — Standard Aux output routing for the ATEM Constellation 8K and required MADI 1 audio settings.
+- [CG A Dante Virtual Soundcard](cg-a-dante-virtual-soundcard.md) — Settings and verification steps for Dante Virtual Soundcard on CG A.
+- [Applying a ProPresenter Theme on CG B](propresenter-theme-cg-b.md) — How to apply the correct BFC Basic theme to all song slides on CG B before service.
 
 ---
 

@@ -6,6 +6,8 @@ This section contains standard operating procedures, repeatable checklists, and 
 
 ## Pages
 
+- [Sunday Gameday Checklist](sunday-gameday-checklist.md) — Full pre-service checklist organized by role (A1, Video Engineer, Lighting, Stage Crew, Graphics), with notes and links to detailed pages.
+- [ControlFlex System Reference](controlflex-system.md) — How to use ControlFlex to control house lights, stage curtains, projector power, and PA power.
 - [TV Kiosks — BFC HD (Info Beamer)](tv-kiosks-bfc-hd-info-beamer.md) — How to update slides on the TV kiosk system using Info Beamer.
 - [Creating a New Support Page](creating-a-new-support-page.md) — How to add documentation to this site using Obsidian or the GitHub web editor.
 

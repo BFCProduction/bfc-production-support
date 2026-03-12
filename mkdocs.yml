@@ -20,3 +20,5 @@ plugins:
   - glightbox
 repo_url: https://github.com/BFCProduction/bfc-production-support
 repo_name: BFCProduction/bfc-production-support
+markdown_extensions:
+  - attr_list

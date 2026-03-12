@@ -13,9 +13,15 @@ This section covers Dante network audio, mixing console setup, signal flow, and 
 
 ---
 
+## Pages
+
+- [Loading a Session on the SD12](digico-sd12-loading-a-session.md) — Session naming conventions and how to load a session from the Master screen
+
+---
+
 ## Manufacturer Documentation
 
-- [Dante Controller User Guide](https://dev.audinate.com/GA/dante-controller/userguide/webhelp/content/front_page.htm) — Official Audinate reference for Dante Controller
+- [Dante Controller User Guide](https://dev.audinate.com/GA/dante-controller/userguide/webhelp/content/front_page.htm){target="_blank"} — Official Audinate reference for Dante Controller
 
 ---
 

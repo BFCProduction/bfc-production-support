@@ -13,4 +13,10 @@ This section covers Resolume Arena workflows, codec and file format guidelines, 
 
 ---
 
+## Pages
+
+- [Arena Service Bumper — Auto-Start ProPresenter Timer](arena-service-bumper-timer.md) — How Companion automatically starts a ProPresenter countdown timer when the service bumper plays in Arena, and how to set the timer duration before going live.
+
+---
+
 Pages are being added as procedures are documented. If you've solved a problem or established a repeatable process, add it here — see [Creating a New Support Page](../workflows/creating-a-new-support-page.md).

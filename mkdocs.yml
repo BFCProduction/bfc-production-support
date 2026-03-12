@@ -1,0 +1,25 @@
+site_name: BFC Production Support
+site_url: https://bfcproduction.github.io/bfc-production-support
+
+theme:
+  name: material
+  palette:
+    scheme: slate
+    primary: black
+    accent: indigo
+  features:
+    - navigation.sections
+    - navigation.top
+    - search.suggest
+    - search.highlight
+
+nav:
+  - Home: index.md
+  - Audio: audio/index.md
+  - Video: video/index.md
+  - Lighting: lighting/index.md
+  - Network: network/index.md
+  - Workflows: workflows/index.md
+
+repo_url: https://github.com/BFCProduction/bfc-production-support
+repo_name: BFCProduction/bfc-production-support

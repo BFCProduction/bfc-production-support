@@ -1,4 +1,30 @@
+/* Logo size */
 .md-header__button.md-logo img {
   height: 60px;
   width: auto;
+}
+
+/* Hide redundant site title in header */
+.md-header__title {
+  display: none;
+}
+
+/* Pure black header */
+.md-header {
+  background-color: #000000;
+}
+
+/* Dark grey background */
+.md-main {
+  background-color: #1a1a1a;
+}
+
+/* Dark grey sidebar */
+.md-sidebar {
+  background-color: #212121;
+}
+
+/* Match content area */
+.md-content {
+  background-color: #1a1a1a;
 }

@@ -5,9 +5,9 @@ theme:
   logo: assets/bfc-logo.png
   favicon: assets/bfc-logo.png
   palette:
-    scheme: slate
+    scheme: default
     primary: black
-    accent: indigo
+    accent: custom
   features:
     - navigation.sections
     - navigation.top

@@ -6,7 +6,7 @@ theme:
   favicon: assets/bfc-logo.png
   font: false
   palette:
-    scheme: slate
+    scheme: default
     primary: black
     accent: indigo
   features:

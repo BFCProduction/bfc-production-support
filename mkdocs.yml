@@ -4,13 +4,11 @@ theme:
   name: material
   logo: assets/bfc-logo.png
   favicon: assets/bfc-logo.png
-  font:
-    text: Inter
-    code: JetBrains Mono
+  font: false
   palette:
     scheme: slate
     primary: black
-    accent: cyan
+    accent: indigo
   features:
     - navigation.sections
     - navigation.top

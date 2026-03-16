@@ -4,15 +4,22 @@ theme:
   name: material
   logo: assets/bfc-logo.png
   favicon: assets/bfc-logo.png
+  font:
+    text: Inter
+    code: JetBrains Mono
   palette:
     scheme: slate
     primary: black
-    accent: indigo
+    accent: cyan
   features:
     - navigation.sections
     - navigation.top
+    - navigation.instant
+    - navigation.footer
     - search.suggest
     - search.highlight
+    - content.code.copy
+    - toc.follow
 extra_css:
   - assets/custom.css
 plugins:
@@ -22,3 +29,9 @@ repo_url: https://github.com/BFCProduction/bfc-production-support
 repo_name: BFCProduction/bfc-production-support
 markdown_extensions:
   - attr_list
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite

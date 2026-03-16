@@ -1,16 +1,43 @@
 # Network
 
-This section covers VLAN structure, switch configuration, IP addressing, and infrastructure references. The production network is segmented by discipline — understanding that structure is foundational to troubleshooting any system that touches the network.
+VLAN structure, switch configuration, IP addressing, and infrastructure references. The production network is segmented by discipline — understanding that structure is foundational to troubleshooting any system that touches the network.
+
+<div class="grid cards" markdown>
+
+-   :material-lan:{ .lg .middle } **VLAN Structure**
+
+    ---
+
+    Dante on `.51` · Video/NDI on `.60` · Lighting on `.70`
+
+    *Documentation coming soon.*
+
+-   :material-switch:{ .lg .middle } **Switch Configuration**
+
+    ---
+
+    Port assignments, trunk configuration, and managed switch access.
+
+    *Documentation coming soon.*
+
+-   :material-ip-network:{ .lg .middle } **IP Addressing**
+
+    ---
+
+    Static assignments, device naming conventions, and address ranges by VLAN.
+
+    *Documentation coming soon.*
+
+-   :material-file-tree:{ .lg .middle } **Infrastructure References**
+
+    ---
+
+    Diagrams, rack documentation, and physical layout.
+
+    *Documentation coming soon.*
+
+</div>
 
 ---
 
-## What's in This Section
-
-- **VLAN Structure** — how the network is segmented and why (Dante on .51, Video/NDI on .60, Lighting on .70)
-- **Switch Configuration** — port assignments, trunk configuration, and managed switch access
-- **IP Addressing** — static assignments, device naming conventions, and address ranges by VLAN
-- **Infrastructure References** — diagrams, rack documentation, and physical layout
-
----
-
-Pages are being added as procedures are documented. If you've solved a problem or established a repeatable process, add it here — see [Creating a New Support Page](../workflows/creating-a-new-support-page.md).
+Pages are added as procedures are documented. If you've solved a problem or established a repeatable process, add it here — see [Creating a New Support Page](../workflows/creating-a-new-support-page.md).

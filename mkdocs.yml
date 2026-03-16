@@ -10,6 +10,8 @@ theme:
     primary: black
     accent: indigo
   features:
+    - navigation.tabs
+    - navigation.indexes
     - navigation.sections
     - navigation.top
     - navigation.instant
@@ -25,11 +27,40 @@ plugins:
   - glightbox
 repo_url: https://github.com/BFCProduction/bfc-production-support
 repo_name: BFCProduction/bfc-production-support
+
+nav:
+  - Home: index.md
+  - Audio:
+    - audio/index.md
+    - Loading a Session on the SD12: audio/digico-sd12-loading-a-session.md
+  - Video:
+    - video/index.md
+    - Arena Service Bumper — Auto-Start Timer: video/arena-service-bumper-timer.md
+    - ATEM Output Configuration: video/atem-output-configuration.md
+    - CG A Dante Virtual Soundcard: video/cg-a-dante-virtual-soundcard.md
+    - Applying a ProPresenter Theme on CG B: video/propresenter-theme-cg-b.md
+  - Lighting:
+    - lighting/index.md
+    - Connecting MA3 to Arena: lighting/Connecting-MA3-to-Arena.md
+    - Service Bumper — Arena Playback & Timer: "lighting/Service Bumper — Arena Playback & Timer System.md"
+  - Network:
+    - network/index.md
+  - Workflows:
+    - workflows/index.md
+    - Sunday Gameday Checklist: workflows/sunday-gameday-checklist.md
+    - ControlFlex System Reference: workflows/controlflex-system.md
+    - TV Kiosks — BFC HD Info Beamer: workflows/tv-kiosks-bfc-hd-info-beamer.md
+    - Creating a New Support Page: workflows/creating-a-new-support-page.md
+
 markdown_extensions:
   - attr_list
+  - md_in_html
   - admonition
   - pymdownx.details
   - pymdownx.superfences
   - pymdownx.highlight:
       anchor_linenums: true
   - pymdownx.inlinehilite
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg

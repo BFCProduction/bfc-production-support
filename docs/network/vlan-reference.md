@@ -22,12 +22,21 @@ The production network is segmented into discipline-specific VLANs managed throu
 
 ## Notes
 
-**Dante (VLAN 51)** requires special handling:
+**Dante (VLANs 51, 54)** requires special handling:
 
 - Dante uses multicast UDP. Multicast must be enabled on any switch carrying Dante traffic.
 - Do not mix Dante with general audio or video traffic on the same unmanaged network.
 - Each Dante subnet (51, 52, 53, 54) is kept separate because Dante devices auto-discover all devices on the subnet — mixing unrelated systems creates noise and potential routing conflicts.
 - VLAN 51 is the Sanctuary Dante network; VLAN 54 is the Worship Room Dante network. Do not put Sanctuary Dante devices on VLAN 54 or vice versa.
+
+**Why the Sanctuary and Worship Room are on separate Dante VLANs:**
+
+The campus originally ran a single Dante network with the DiGiCo SD12 set as the clock master. This created two problems:
+
+1. **Clock master conflicts** — When the SD12 was powered off, all other Dante-enabled consoles on the network would compete to become the new clock master, causing disruption across every venue simultaneously.
+2. **Latency** — Consoles physically far from the SD12 were routing Dante traffic through 5–6 switches to reach the clock master, resulting in higher-than-expected latency.
+
+Splitting into per-venue Dante VLANs means each room's Dante network is self-contained with its own clock master. Powering down one room's console has no effect on other venues, and latency is determined by the hops within that room's network rather than the distance to a shared master on the other side of campus.
 
 **Lighting (VLAN 70)** carries MA-Net, the grandMA3 network protocol. MA3 consoles, NPUs, and L-Nodes must all be on this VLAN to communicate.
 

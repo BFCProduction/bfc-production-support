@@ -8,21 +8,21 @@ Use this guide when connecting a new or relocated device to the production netwo
 
 Match the device type to its VLAN. If unsure, check the [VLAN Reference](vlan-reference.md).
 
-| Device type | VLAN |
-|-------------|------|
-| Dante endpoint (audio interface, stagebox, amplifier) | 51 |
-| Dante wireless rack | 54 |
-| Wireless IEM system | 53 |
-| Sanctuary IEM system | 52 |
-| Waves Soundgrid server or satellite | 55 |
-| General audio (console, Mac running audio software, REAPER, SMAART) | 50 |
-| Video (ATEM, NDI device, CG machine, ProPresenter, PTZ) | 60 |
-| Displays and signage | 61 |
-| GreenGo intercom | 62 |
-| MA3 console, NPU, L-Node | 70 |
-| ControlFlex, GPIO, show control | 70 |
-| Security cameras | 47 |
-| UniFi AP or switch (management) | 1 |
+| VLAN | Device type |
+|------|-------------|
+| 1 | UniFi AP or switch (management) |
+| 20 | Guest Wi-Fi device |
+| 47 | Security cameras |
+| 50 | General audio — console, Mac running audio software, REAPER, SMAART |
+| 51 | Dante — Sanctuary (audio interfaces, stageboxes, amplifiers in the Sanctuary) |
+| 52 | Sanctuary IEM system |
+| 53 | Wireless IEM system |
+| 54 | Dante — Worship Room (audio interfaces, stageboxes, amplifiers in the Worship Room) |
+| 55 | Waves Soundgrid server or satellite |
+| 60 | Video — ATEM, NDI device, CG machine, ProPresenter, PTZ |
+| 61 | Displays and signage |
+| 62 | GreenGo intercom |
+| 70 | MA3 console, NPU, L-Node, ControlFlex, GPIO, show control |
 
 ---
 
@@ -59,16 +59,24 @@ Check the [Port Documentation](port-documentation.md) spreadsheet to find a free
 
 ## Step 4 — Assign a Static IP (if required)
 
-Most production devices use static IPs, not DHCP. Refer to the [Port Documentation](port-documentation.md) spreadsheet per-VLAN tabs for existing IP assignments on that VLAN — pick an IP that isn't in use.
+Most production devices use static IPs, not DHCP. Refer to the [Port Documentation](port-documentation.md) spreadsheet per-VLAN tabs for existing IP assignments on that VLAN — pick an unused address in the static range.
 
-Common subnet by VLAN (192.168.x.y where x = VLAN ID):
+**IP address scheme:** All production VLANs use the `10.1.XX.YYY` scheme, where `XX` is the VLAN ID:
 
-| VLAN | Subnet example |
-|------|---------------|
-| 50 (Audio) | 192.168.50.x |
-| 51 (Dante) | 192.168.51.x |
-| 60 (Video) | 192.168.60.x |
-| 70 (Lighting) | 192.168.70.x |
+| VLAN | Subnet | Static range | DHCP range |
+|------|--------|-------------|------------|
+| 50 (Audio) | 10.1.50.x | .1 – .99 | .100 – .255 |
+| 51 (Dante — Sanctuary) | 10.1.51.x | .1 – .99 | .100 – .255 |
+| 52 (Sanctuary IEM) | 10.1.52.x | .1 – .99 | .100 – .255 |
+| 53 (WR IEMs) | 10.1.53.x | .1 – .99 | .100 – .255 |
+| 54 (Dante — Worship Room) | 10.1.54.x | .1 – .99 | .100 – .255 |
+| 55 (Soundgrid) | 10.1.55.x | .1 – .99 | .100 – .255 |
+| 60 (Video) | 10.1.60.x | .1 – .99 | .100 – .255 |
+| 61 (Displays) | 10.1.61.x | .1 – .99 | .100 – .255 |
+| 62 (GreenGo) | 10.1.62.x | .1 – .99 | .100 – .255 |
+| 70 (Lighting) | 10.1.70.x | .1 – .99 | .100 – .255 |
+
+Addresses `.1` through `.99` are reserved for static assignment. Addresses `.100` through `.255` are DHCP. Always assign production devices a static IP in the `.1–.99` range — check the spreadsheet first to avoid conflicts.
 
 Assign the IP directly on the device. Do not rely on DHCP for production endpoints.
 

@@ -45,6 +45,11 @@ nav:
     - Service Bumper — Arena Playback & Timer: "lighting/Service Bumper — Arena Playback & Timer System.md"
   - Network:
     - network/index.md
+    - VLAN Reference: network/vlan-reference.md
+    - Switch Inventory: network/switch-inventory.md
+    - Port Documentation: network/port-documentation.md
+    - Adding a Device: network/adding-a-device.md
+    - Network Troubleshooting: network/network-troubleshooting.md
   - Workflows:
     - workflows/index.md
     - Sunday Gameday Checklist: workflows/sunday-gameday-checklist.md

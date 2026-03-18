@@ -1,43 +1,47 @@
 # Network
 
-VLAN structure, switch configuration, IP addressing, and infrastructure references. The production network is segmented by discipline — understanding that structure is foundational to troubleshooting any system that touches the network.
+VLAN structure, switch inventory, port documentation, and infrastructure references. The production network is segmented by discipline — understanding that structure is foundational to troubleshooting any system that touches the network.
 
 <div class="grid cards" markdown>
 
--   :material-lan:{ .lg .middle } **VLAN Structure**
+-   :material-lan:{ .lg .middle } **VLAN Reference**
 
     ---
 
-    Dante on `.51` · Video/NDI on `.60` · Lighting on `.70`
+    Full table of all VLANs with IDs, names, and purpose. Start here when troubleshooting a device that isn't communicating.
 
-    *Documentation coming soon.*
+    [:octicons-arrow-right-24: Read more](vlan-reference.md)
 
--   :material-switch:{ .lg .middle } **Switch Configuration**
-
-    ---
-
-    Port assignments, trunk configuration, and managed switch access.
-
-    *Documentation coming soon.*
-
--   :material-ip-network:{ .lg .middle } **IP Addressing**
+-   :material-switch:{ .lg .middle } **Switch Inventory**
 
     ---
 
-    Static assignments, device naming conventions, and address ranges by VLAN.
+    All production switches with system names, management IPs, models, and physical locations.
 
-    *Documentation coming soon.*
+    [:octicons-arrow-right-24: Read more](switch-inventory.md)
 
--   :material-file-tree:{ .lg .middle } **Infrastructure References**
+-   :material-file-table:{ .lg .middle } **Port Documentation**
 
     ---
 
-    Diagrams, rack documentation, and physical layout.
+    Per-port VLAN assignments and device labels for every switch. Links to the live Sanctuary Production Network Info spreadsheet.
 
-    *Documentation coming soon.*
+    [:octicons-arrow-right-24: Read more](port-documentation.md)
+
+-   :material-plus-network:{ .lg .middle } **Adding a Device**
+
+    ---
+
+    Step-by-step: choose the right VLAN, configure the port in UniFi, assign a static IP, and update the port doc.
+
+    [:octicons-arrow-right-24: Read more](adding-a-device.md)
+
+-   :material-help-network:{ .lg .middle } **Network Troubleshooting**
+
+    ---
+
+    Device not found, Dante not discovering, MA3 nodes offline, slow performance — common failures and how to fix them.
+
+    [:octicons-arrow-right-24: Read more](network-troubleshooting.md)
 
 </div>
-
----
-
-Pages are added as procedures are documented. If you've solved a problem or established a repeatable process, add it here — see [Creating a New Support Page](../workflows/creating-a-new-support-page.md).

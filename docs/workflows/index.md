@@ -12,6 +12,14 @@ Standard operating procedures, repeatable checklists, and step-by-step processes
 
     [:octicons-arrow-right-24: Read more](sunday-gameday-checklist.md)
 
+-   :material-monitor-dashboard:{ .lg .middle } **Tulakes Sunday Morning Startup SOP**
+
+    ---
+
+    Step-by-step early-morning startup procedure for the Tulakes room, including ProPresenter, projector, confidence display, console prep, audio playback, and ATEM routing checks.
+
+    [:octicons-arrow-right-24: Read more](tulakes-sunday-morning-startup-sop.md)
+
 -   :material-home-lightning-bolt:{ .lg .middle } **ControlFlex System Reference**
 
     ---

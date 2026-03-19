@@ -28,6 +28,14 @@ Resolume Arena workflows, codec and file format guidelines, NDI configuration, a
 
     [:octicons-arrow-right-24: Read more](cg-a-dante-virtual-soundcard.md)
 
+-   :material-camera-control:{ .lg .middle } **PTZ Operator Instructions**
+
+    ---
+
+    Reference for the PTZ controller menus, preset setup, loop behavior, focus control, dolly limits, and controller reboot steps.
+
+    [:octicons-arrow-right-24: Read more](ptz-operator-instructions.md)
+
 -   :material-presentation:{ .lg .middle } **Applying a ProPresenter Theme on CG B**
 
     ---

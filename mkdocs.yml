@@ -38,10 +38,12 @@ nav:
     - Arena Service Bumper — Auto-Start Timer: video/arena-service-bumper-timer.md
     - ATEM Output Configuration: video/atem-output-configuration.md
     - CG A Dante Virtual Soundcard: video/cg-a-dante-virtual-soundcard.md
+    - PTZ Operator Instructions: video/ptz-operator-instructions.md
     - Applying a ProPresenter Theme on CG B: video/propresenter-theme-cg-b.md
   - Lighting:
     - lighting/index.md
     - Connecting MA3 to Arena: lighting/Connecting-MA3-to-Arena.md
+    - Atrium Jands Stage CL: lighting/atrium-jands-stage-cl.md
     - Service Bumper — Arena Playback & Timer: "lighting/Service Bumper — Arena Playback & Timer System.md"
   - Network:
     - network/index.md

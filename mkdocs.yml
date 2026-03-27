@@ -40,13 +40,15 @@ nav:
     - CG A Dante Virtual Soundcard: video/cg-a-dante-virtual-soundcard.md
     - PTZ Operator Instructions: video/ptz-operator-instructions.md
     - Applying a ProPresenter Theme on CG B: video/propresenter-theme-cg-b.md
-    - Dana Dolly V3 Beltless — Compatibility: video/dana-dolly-v3-compatibility.md
-    - Dana Dolly V3 Beltless — Firmware: video/dana-dolly-v3-firmware.md
-    - Dana Dolly V3 Beltless — Physical Install: video/dana-dolly-v3-install.md
-    - Dana Dolly V3 Beltless — Motor Engage/Disengage: video/dana-dolly-v3-motor-engage.md
-    - Dana Dolly V3 Beltless — Spectrum Sensor & Markers: video/dana-dolly-v3-spectrum-sensor.md
-    - Dana Dolly V3 Beltless — Conductor Sensor & Markers: video/dana-dolly-v3-conductor-sensor.md
-    - Dana Dolly V3 Beltless — Calibration & First Shot: video/dana-dolly-v3-calibration.md
+    - Dana Dolly V3 Beltless:
+      - video/dana-dolly/index.md
+      - Compatibility: video/dana-dolly/dana-dolly-v3-compatibility.md
+      - Firmware: video/dana-dolly/dana-dolly-v3-firmware.md
+      - Physical Install: video/dana-dolly/dana-dolly-v3-install.md
+      - Motor Engage / Disengage: video/dana-dolly/dana-dolly-v3-motor-engage.md
+      - Spectrum ST4 — Sensor & Markers: video/dana-dolly/dana-dolly-v3-spectrum-sensor.md
+      - Conductor SA2.6 — Sensor & Markers: video/dana-dolly/dana-dolly-v3-conductor-sensor.md
+      - Calibration & First Shot: video/dana-dolly/dana-dolly-v3-calibration.md
   - Lighting:
     - lighting/index.md
     - Connecting MA3 to Arena: lighting/Connecting-MA3-to-Arena.md

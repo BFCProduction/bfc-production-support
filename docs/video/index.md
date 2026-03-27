@@ -44,61 +44,13 @@ Resolume Arena workflows, codec and file format guidelines, NDI configuration, a
 
     [:octicons-arrow-right-24: Read more](propresenter-theme-cg-b.md)
 
--   :material-dolly:{ .lg .middle } **Dana Dolly V3 Beltless — Compatibility**
+-   :material-dolly:{ .lg .middle } **Dana Dolly V3 Beltless Integration**
 
     ---
 
-    Check if your Dana Dolly and track are compatible with the DDV3 Beltless motor and sensor kit.
+    Setup guides for the eMotimo DDV3 Beltless kit — compatibility, firmware, install, sensor setup, and running ping-pong shots.
 
-    [:octicons-arrow-right-24: Read more](dana-dolly-v3-compatibility.md)
-
--   :material-update:{ .lg .middle } **Dana Dolly V3 Beltless — Firmware**
-
-    ---
-
-    Required firmware updates for the Spectrum ST4/ST4.3 and Conductor SA2.6 before using the DDV3 kit.
-
-    [:octicons-arrow-right-24: Read more](dana-dolly-v3-firmware.md)
-
--   :material-hammer-wrench:{ .lg .middle } **Dana Dolly V3 Beltless — Physical Install**
-
-    ---
-
-    How to mount the DDV3 motor unit to the Dana Dolly carriage and engage the drive wheel.
-
-    [:octicons-arrow-right-24: Read more](dana-dolly-v3-install.md)
-
--   :material-lock-open:{ .lg .middle } **Dana Dolly V3 Beltless — Motor Engage/Disengage**
-
-    ---
-
-    Switching the dolly between motorized and manual mode using the silver locking pin.
-
-    [:octicons-arrow-right-24: Read more](dana-dolly-v3-motor-engage.md)
-
--   :material-radar:{ .lg .middle } **Dana Dolly V3 Beltless — Spectrum Sensor & Markers**
-
-    ---
-
-    Sensor board wiring, dongle setup, board positioning, and marker sticker placement for the Spectrum ST4/ST4.3.
-
-    [:octicons-arrow-right-24: Read more](dana-dolly-v3-spectrum-sensor.md)
-
--   :material-radar:{ .lg .middle } **Dana Dolly V3 Beltless — Conductor Sensor & Markers**
-
-    ---
-
-    Sensor board wiring, board positioning, and marker sticker placement for the Conductor SA2.6.
-
-    [:octicons-arrow-right-24: Read more](dana-dolly-v3-conductor-sensor.md)
-
--   :material-play-circle:{ .lg .middle } **Dana Dolly V3 Beltless — Calibration & First Shot**
-
-    ---
-
-    Teaching the midpoint marker position and running your first ping-pong interview shot.
-
-    [:octicons-arrow-right-24: Read more](dana-dolly-v3-calibration.md)
+    [:octicons-arrow-right-24: Read more](dana-dolly/index.md)
 
 </div>
 
